@@ -11,7 +11,7 @@ section {
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background: url('/images/bg.jpg');
+    background: url('./images/bg.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -139,7 +139,7 @@ header .navigation li a:hover {
 
     section {
         padding: 40px;
-        background: url('/images/bg2.jpg');
+        background: url('./images/bg2.jpg');
         background-size: cover;
         background-position: center;
     }
@@ -156,7 +156,7 @@ header .navigation li a:hover {
         position: relative;
         width: 30px;
         height: 30px;
-        background: url('/images/menu.png');
+        background: url('./images/menu.png');
         background-position: center;
         background-size: 30px;
         background-repeat: no-repeat;
@@ -165,7 +165,7 @@ header .navigation li a:hover {
     }
 
     .toggleMenu.active{
-        background: url('/images/close.png');
+        background: url('./images/close.png');
         background-position: center;
         background-size: 25px;
         background-repeat: no-repeat;
