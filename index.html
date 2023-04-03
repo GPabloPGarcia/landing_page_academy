@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forte Personal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <header>
+            <a href="#" class="logo">Forte Personal</a>
+            <div class="toggleMenu" onclick="toggleMenu()"></div>
+            <ul class="navigation">
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Personal</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="contentBx">
+                <h2>Build Perferct Boby</br> With Clean Mind</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, totam cumque nesciunt maxime
+                    distinctio aliquid numquam inventore, libero dolores itaque cum? Iste blanditiis enim nulla dolor
+                    architecto. Tenetur, consectetur numquam.</p>
+                <a href="#">Get Started</a>
+            </div>
+        </div>
+        <ul class="sci">
+            <li><a href=""><img src="/images/facebook.png" alt="facebook"></a></li>
+            <li><a href=""><img src="/images/twitter.png" alt="twitter"></a></li>
+            <li><a href=""><img src="/images/instagram.png" alt="instagram"></a></li>
+        </ul>
+    </section>
+    <script>
+        function toggleMenu(){
+            const toggleMenu = document.querySelector('.toggleMenu');
+            const navigation = document.querySelector('.navigation');
+
+            toggleMenu.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
